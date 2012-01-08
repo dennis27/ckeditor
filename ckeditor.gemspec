@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "ckeditor"
   s.homepage = "https://github.com/galetahub/ckeditor"
   
-  s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.rdoc"]
+  s.files = Dir["{app,lib,config,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.rdoc"]
   s.test_files = Dir["{test}/**/*"]
   s.extra_rdoc_files = ["README.rdoc"]
   s.require_paths = ["lib"]
